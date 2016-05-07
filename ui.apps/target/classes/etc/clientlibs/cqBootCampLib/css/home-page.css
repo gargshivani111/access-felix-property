@@ -1,0 +1,566 @@
+
+/*Home Page Css Starts Here */
+.red {
+	background: #e02626;
+}
+.pink {
+	background: #d93051;
+}
+.blue {
+	background: #19559d;
+}
+.spotlightWrapper .spotlightContentLeft {
+	position: absolute;
+	width: 50%;
+	height: 200px;
+	z-index: 2;
+	left: 0;
+	top: 40%;
+	padding: 1%;
+}
+.spotlightWrapper .spotlightContentLeft .content {
+	float: right;
+	width: 60%;
+	color: #fff;
+	font-size: 16px;
+}
+.spotlightWrapper .spotlightContentLeft .content .heading {
+	font-size: 40px;
+	font-family: 'SegoeCondensed-Bold';
+	margin: 0px;
+	padding: 0px;
+	line-height:40px;
+}
+.spotlightWrapper .spotlightContentLeft .content .heading span {
+	font-family: 'SegoeUI';
+	font-weight: normal;
+}
+.spotlightWrapper .spotlightContentLeft .content p {
+	margin: 0px;
+	line-height: 18px;
+}
+.spotlightWrapper .spotlightContentLeft .content .buttonWrapper {
+	float: left;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+.spotlightWrapper .spotlightContentLeft .content .buttonGlbl {
+	float: left;
+	width: auto;
+	font-size: 13px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+.spotlightWrapper .spotlightContentLeft .content .buttonGlbl a {
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	background: rgba(0, 0, 0, 0.3);
+}
+.spotlightWrapper .spotlightContentLeft .content .buttonGlbl a span {
+	position: relative;
+	z-index: 2;
+}
+.spotlightWrapper .spotlightContentLeft .content .buttonGlbl a:after {
+	content: '';
+	width: 0;
+	height: 100%;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.3);
+	left: 0;
+	top: 0;
+	z-index: 1;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.spotlightWrapper .spotlightContentLeft .content .buttonGlbl a:hover:after {
+	width: 100%;
+}
+.spotlightWrapper .spotlightContentRight {
+	position: absolute;
+	width: 5%;
+	height: 200px;
+	z-index: 2;
+	right: 0;
+	top: 40%;
+	padding: 2%;
+}
+.homePageWrapper {
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+}
+.homePageWrapper .cardRow {
+	float: left;
+	width: 100%;
+	margin: 1px 0 0 0;
+}
+.homePageWrapper .cardRow .col {
+	float:left;
+	width: 50%;
+	height:267px;
+	vertical-align: top;
+	position: relative;
+}
+.homePageWrapper .sliderWrapper {
+	float: left;
+	width: 100%;
+	height:100%;
+	padding: 5%;
+}
+.homePageWrapper .sliderWrapper .slick-slider {
+	height:100%;
+}
+.homePageWrapper .sliderWrapper .slick-dots {
+	margin:0px;
+	bottom:-10px;
+}
+.slick-dots li button {
+	background:#cccccc;
+}
+.homePageWrapper .sliderWrapper h2 {
+	color: #e02626;
+}
+.homePageWrapper .sliderWrapper .subHead {
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+}
+.havellsAtGlance p {
+	font-size: 24px;
+}
+.hpCarouselBg {
+	background: #2d2d2d !important;
+}
+.homePageWrapper .hpCarouselBg .sliderWrapper {
+	padding:10px;
+}
+.homePageWrapper .hpCarouselBg .sliderWrapper .slick-slider {
+	padding:10px 0;
+}
+.hpCarouselBg h2 {
+	color: #fff;
+	padding-left:15px;
+}
+.hpCarouselBg p {
+	font-size: 14px;
+	color: #fff;
+	padding:0 40px 0 15px;
+}
+.hpCarouselBg .buttonWrapper {
+	padding-left:15px;
+}
+.hpCarouselBg .slick-prev, .hpCarouselBg .slick-next,.hpCarouselBg .slick-prev:hover, .hpCarouselBg .slick-next:hover {
+	background:url(/content/dam/cq-bootcamp/home-pg-carousel-arrow.png) 0 0 no-repeat;
+	width:19px;
+	height:56px;
+	top:45%;
+}
+.hpCarouselBg .slick-prev,.hpCarouselBg .slick-prev:hover{
+	left:10px;
+}
+.hpCarouselBg .slick-next, .hpCarouselBg .slick-next:hover {
+	right:10px;
+	background-position:-19px 0;
+}
+.hpCarouselBg .subHead {
+	position: absolute;
+	left: 1px;
+	background: #e02626;
+	top: 55px;
+	width: auto !important;
+	padding: 18px 25px;
+	font-size: 18px !important;
+	color: #fff;
+}
+.hpCarouselBg .subHeadWrap {
+	float: left;
+	width: 100%;
+	height: 80px;
+}
+.hpCarouselBgIcon {
+	position: absolute;
+	width: 80px;
+	height: 61px;
+	background: #e02626;
+	right: 0px;
+	top: 55px;
+	background:url(/content/dam/cq-bootcamp/hp-carousel-icon-sprite.png) #e02626 50% 0 no-repeat;
+}
+.hpCarouselBgIcon.icn1 {
+	background-position:50% 15px;
+}
+.hpCarouselBgIcon.icn2 {
+	background-position:50% -110px;
+}
+.hpCarouselBgIcon.icn3 {
+	background-position:50% -182px;
+}
+.hpCarouselBgIcon.icn4 {
+	background-position:50% -45px;
+}
+.hpCarouselBgIcon.icn5 {
+	background-position:50% -242px;
+}
+.homePageWrapper .buttonWrapper {
+	float: left;
+	width: 100%;
+}
+.homePageWrapper .buttonGlbl {
+	float: left;
+	width: auto;
+	font-size: 13px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+.homePageWrapper .buttonGlbl a {
+	display: inline-block;
+	border: #575757 solid 1px;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+}
+.homePageWrapper .buttonGlbl a span {
+	position: relative;
+	z-index: 2;
+}
+.homePageWrapper .buttonGlbl a:after {
+	content: '';
+	width: 0;
+	height: 100%;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.3);
+	left: 0;
+	top: 0;
+	z-index: 1;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.homePageWrapper .buttonGlbl a:hover:after {
+	width: 100%;
+}
+.hpCsrBg {
+	background: url(../img/hp-csr-bg.jpg) right top no-repeat;
+	height: 267px;
+}
+.hpCsrBg .subHead {
+	color: #fff;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 10px 0;
+}
+.hpCsrBg p {
+	font-size: 13px;
+	color: #fff;
+}
+.infraBg {
+	background: #e9e9e9;
+}
+.infraRow {
+	float: left;
+	width: 100%;
+}
+.infraRow ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.infraRow ul li {
+	width: 25%;
+	padding: 2%;
+	border-right: #cacaca solid 1px;
+	display: table-cell;
+	vertical-align: top;
+}
+.infraRow ul li:last-child {
+	border-right: 0;
+}
+.infraRow ul li .numbers {
+	float: left;
+	width: 100%;
+	font-size: 25px;
+	line-height: 25px;
+}
+.infraRow ul li .label {
+	float: left;
+	width: 100%;
+	line-height: 12px;
+}
+.havellsConnectBg {
+	background: #e9e9e9;
+}
+.havellsConnectBg .havellsConnectOptionWrapper {
+	float: left;
+	width: 100%;
+	padding: 5%;
+}
+.havellsConnectBg .havellsConnectOptionWrapper ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.havellsConnectBg .havellsConnectOptionWrapper ul li {
+	float: left;
+	width: 100%;
+	min-height:65px;
+	border-bottom: #d1d1d1 solid 1px;
+	padding: 10px 0 10px 15%;
+	background: url(/content/dam/cq-bootcamp/havells-connect-sprite.png) left top no-repeat;
+}
+.havellsConnectBg .havellsConnectOptionWrapper ul li:last-child {
+	border-bottom: 0;
+}
+.havellsConnectBg .havellsConnectOptionWrapper ul li strong {
+	display: block;
+	font-family: 'SegoeCondensed-Bold';
+	font-size: 15px;
+}
+.havellsConnectBg .havellsConnectOptionWrapper ul li a {
+	color: #696969;
+	text-decoration: none;
+}
+.havellsConnectBg .havellsConnectOptionWrapper ul li.icn1 {
+	background-position: 0 10px;
+}
+.havellsConnectBg .havellsConnectOptionWrapper ul li.icn2 {
+	background-position: 0 -70px;
+}
+.havellsConnectBg .havellsConnectOptionWrapper ul li.icn3 {
+	background-position: 0 -150px;
+}
+.newsAndUpdates {
+	background: #e9e9e9;
+	border-left: #fff solid 1px;
+}
+.newsAndUpdates .newsWrap {
+	float: left;
+	width: 100%;
+	padding: 5%;
+}
+.newsAndUpdates .newsWrap h2 {
+	color: #e02626;
+}
+.newsAndUpdates .newsWrap ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.newsAndUpdates .newsWrap ul li {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.newsAndUpdates .newsWrap ul li span {
+	font-size: 11px;
+	color: #949494;
+	display: block;
+}
+.newsAndUpdates .newsWrap ul li a{
+	color:#4f4f4f;
+	text-decoration:none;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.homePageWrapper .cardRow .col {
+ width:50%;
+ height:267px !important;
+ height:auto;
+}
+.homePageWrapper .cardRow .col img {
+ width:100%;
+ height:100%;
+}
+.spotlightWrapper .spotlightContentLeft {
+ width:100%;
+ display:none;
+}
+.spotlightWrapper .spotlightContentRight {
+ display:none;
+}
+.spotlightWrapper .spotlightContentLeft .content .buttonWrapper {
+ margin:5px 0 0 0;
+}
+.spotlightWrapper .slick-dots li.slick-active button {
+ -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+ -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+ box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+}
+.spotlightWrapper .spotlightContentLeft .content {
+ width:100%;
+}
+.spotlightWrapper .spotlightContentLeft .content .heading {
+ font-size:16px;
+}
+.spotlightWrapper .spotlightContentLeft .content p {
+ display:none;
+}
+.hpCarouselBgIcon {
+ display:none;
+}
+.infraRow ul li {
+ float:left;
+ width:25%;
+ height:60px;
+}
+.newsAndUpdates {
+ border:0;
+ border-top:#fff solid 1px;
+}
+.homePageWrapper .sliderWrapper {
+ padding:5% 2%;
+}
+.hpCarouselBg .subHeadWrap {
+ height:auto;
+}
+.hpCarouselBg .subHead {
+ background:none;
+ position:relative;
+ top:auto;
+ padding:0 15px;
+}
+.hpCarouselBg .slick-prev, .hpCarouselBg .slick-next {
+ top:55%;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.spotlightWrapper .spotlightContentLeft {
+ width:100%;
+ display:none;
+}
+.spotlightWrapper .spotlightContentRight {
+ display:none;
+}
+.spotlightWrapper .spotlightContentLeft .content .buttonWrapper {
+ margin:5px 0 0 0;
+}
+.spotlightWrapper .slick-dots li.slick-active button {
+ -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+ -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+ box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+}
+.spotlightWrapper .spotlightContentLeft .content {
+ width:100%;
+}
+.spotlightWrapper .spotlightContentLeft .content .heading {
+ font-size:16px;
+}
+.spotlightWrapper .spotlightContentLeft .content p {
+ display:none;
+}
+.havellsAtGlance p {
+ font-size:13px;
+}
+.hpCarouselBgIcon {
+ display:none;
+}
+.infraRow ul li {
+ float:left;
+ width:50%;
+ border-bottom:1px solid #cacaca;
+ height:60px;
+}
+.infraRow ul li:nth-child(2) {
+ border-right:0;
+}
+.infraRow ul li:nth-child(3), .infraRow ul li:nth-child(4) {
+ border-bottom:0;
+}
+.newsAndUpdates {
+ border:0;
+ border-top:#fff solid 1px;
+}
+.homePageWrapper .sliderWrapper {
+ padding:5% 2%;
+}
+.hpCarouselBg .subHeadWrap {
+ height:auto;
+}
+.hpCarouselBg .subHead {
+ background:none;
+ position:relative;
+ top:auto;
+ padding:0 15px;
+}
+.hpCarouselBg .slick-prev, .hpCarouselBg .slick-next {
+ top:55%;
+}
+}
+@media only screen and (max-width: 479px) {
+.homePageWrapper .cardRow .col {
+ width:100%;
+ height:auto;
+}
+.homePageWrapper .cardRow .col img {
+ width:100%;
+}
+.spotlightWrapper .spotlightContentLeft {
+ width:100%;
+ display:none;
+}
+.spotlightWrapper .spotlightContentRight {
+ display:none;
+}
+.spotlightWrapper .spotlightContentLeft .content .buttonWrapper {
+ margin:5px 0 0 0;
+}
+.spotlightWrapper .slick-dots li.slick-active button {
+ -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+ -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+ box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+}
+.spotlightWrapper .spotlightContentLeft .content {
+ width:100%;
+}
+.spotlightWrapper .spotlightContentLeft .content .heading {
+ font-size:16px;
+}
+.spotlightWrapper .spotlightContentLeft .content p {
+ display:none;
+}
+.havellsAtGlance p {
+ font-size:13px;
+}
+.hpCarouselBgIcon {
+ display:none;
+}
+.infraRow ul li {
+ float:left;
+ width:50%;
+ border-bottom:1px solid #cacaca;
+ height:60px;
+}
+.infraRow ul li:nth-child(2) {
+ border-right:0;
+}
+.infraRow ul li:nth-child(3), .infraRow ul li:nth-child(4) {
+ border-bottom:0;
+}
+.newsAndUpdates {
+ border:0;
+ border-top:#fff solid 1px;
+}
+.homePageWrapper .sliderWrapper {
+ padding:5% 2%;
+}
+.hpCarouselBg .subHeadWrap {
+ height:auto;
+}
+.hpCarouselBg .subHead {
+ background:none;
+ position:relative;
+ top:auto;
+ padding:0 15px;
+}
+.hpCarouselBg .slick-prev, .hpCarouselBg .slick-next {
+ top:20%;
+}	
+}

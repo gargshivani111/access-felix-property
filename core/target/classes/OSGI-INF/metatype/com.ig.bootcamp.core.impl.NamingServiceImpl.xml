@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.ig.bootcamp.core.impl.NamingServiceImpl">
+    <OCD id="com.ig.bootcamp.core.impl.NamingServiceImpl" name="%com.ig.bootcamp.core.impl.NamingServiceImpl.name" description="%com.ig.bootcamp.core.impl.NamingServiceImpl.description">
+        <AD id="author.value" type="String" default="author" name="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.value.name" description="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.value.description"/>
+        <AD id="author.age" type="Integer" default="15" name="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.age.name" description="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.age.description"/>
+        <AD id="author.gender" type="String" default="Female" name="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.gender.name" description="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.gender.description">
+            <Option value="Male" label="1. Male"/>
+            <Option value="Female" label="2. Female"/>
+        </AD>
+        <AD id="checkBox.property" type="Boolean" default="false" name="%com.ig.bootcamp.core.impl.NamingServiceImpl.checkBox.property.name" description="%com.ig.bootcamp.core.impl.NamingServiceImpl.checkBox.property.description"/>
+        <AD id="multifield" type="String" default="English,Hindi" name="%com.ig.bootcamp.core.impl.NamingServiceImpl.multifield.name" description="%com.ig.bootcamp.core.impl.NamingServiceImpl.multifield.description" cardinality="2147483647"/>
+    </OCD>
+    <Designate pid="com.ig.bootcamp.core.impl.NamingServiceImpl">
+        <Object ocdref="com.ig.bootcamp.core.impl.NamingServiceImpl"/>
+    </Designate>
+</metatype:MetaData>

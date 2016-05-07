@@ -1,0 +1,162 @@
+
+.applicationWrapper {
+	float: left;
+	width: 100%;
+	margin: 25px 0 0 0;
+}
+.applicationWrapper .buttonGlbl a {
+	background: #e02626;
+	font-weight: bold;
+}
+.applicationWrapper .categorieWrapper {
+	float: left;
+	width: 100%;
+	margin: 40px 0 0 0;
+	padding: 8px 0;
+	position: relative;
+	border-top: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+}
+.applicationWrapper .categorieWrapper .categorieTriangle {
+	position: absolute;
+	bottom: -10px;
+	left: 6%;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #e5e5e5;
+}
+.applicationProducts {
+	float: left;
+	width: 100%;
+}
+.applicationProducts ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.applicationProducts ul li {
+	float: left;
+	width: 33.3%;
+	margin: 35px 0 0 0;
+}
+.applicationProducts ul li .productName {
+	float: left;
+	width: 100%;
+	font-family: 'SegoeUI';
+	color: #4c4c4c;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.applicationProducts ul li .productDiv {
+	float: left;
+	width: 225px;
+	height: 225px;
+	margin-top: 10px;
+	text-align: center;
+	background: url(../img/productBg.jpg) left top repeat-x;
+}
+.applicationProducts ul li .mrpDiv {
+	float: left;
+	width: 100%;
+	font-size: 11px;
+	color: #ee3b3b;
+	margin: 5px 0 0 0;
+	font-weight: bold;
+}
+.applicationProducts ul li .viewCategories {
+	float: left;
+	width: 94%;
+	padding: 8px;
+	border-bottom: 2px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+}
+.applicationProducts ul li .viewCategories a {
+	text-decoration: none;
+	color: #858585;
+}
+.applicationProducts ul li a .viewCategories {
+	text-decoration: none;
+	color: #858585;
+}
+.applicationProducts ul li .addCartDiv {
+	float: left;
+	width: 94%;
+	padding: 8px 0;
+	border-bottom: 2px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+}
+.applicationProducts ul li .addCartDiv input[type="checkbox"] {
+	float: left;
+	width: auto;
+	margin: 1px 5px 0 5px;
+}
+.applicationProducts ul li .addCartDiv label {
+	float: left;
+	width: auto;
+	color: #4c4c4c;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 18px 0 0;
+}
+.applicationProducts ul li .productDiv .slick-dots {
+	bottom: 20px;
+}
+.applicationProducts ul li .productDiv .slick-dots li {
+	float: right;
+	width: auto;
+	margin: 0 4px;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.applicationWrapper {
+	margin-top: 0px;
+}
+.applicationWrapper .categorieWrapper {
+	margin-top: 20px;
+	width: 100%;
+}
+.applicationProducts ul li {
+	width: 48.5%;
+	margin-top: 20px;
+	margin-right: 2%;
+}
+.applicationProducts ul li:nth-child(even) {
+	margin-right: 0px;
+}
+.applicationProducts ul li .productDiv {
+	width: 100%;
+	height: auto;
+}
+.applicationProducts ul li .productDiv img {
+	width: auto;
+	height: auto;
+}
+}
+@media only screen and (max-width: 479px) {
+	.applicationWrapper {
+	margin-top: 0px;
+}
+.applicationWrapper .categorieWrapper {
+	margin-top: 20px;
+	width: 100%;
+}
+.applicationProducts ul li {
+	width: 48.5%;
+	margin-top: 20px;
+	margin-right: 2%;
+}
+.applicationProducts ul li:nth-child(even) {
+	margin-right: 0px;
+}
+.applicationProducts ul li .productDiv {
+	width: 100%;
+	height: 150px;
+}
+.applicationProducts ul li .productDiv img {
+	width: 100%;
+	height: 100%;
+}
+}

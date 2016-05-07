@@ -1,0 +1,23 @@
+
+.aboutUsWrapper {
+	margin-top: 18px;
+}
+.aboutUsWrapper .twoColRight .valuesWrapper {
+	float: left;
+	width: 100%;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.aboutUsWrapper {
+	margin-top: 6px;
+}
+}
+@media only screen and (max-width: 479px) {
+.aboutUsWrapper {
+	margin-top: 6px;
+}
+}
+@media only screen and (max-width: 479px) {	
+.aboutUsWrapper {
+	margin-top: 6px;
+}
+}

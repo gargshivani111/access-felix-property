@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="com.ig.bootcamp.core.impl.NamingServiceImpl" activate="activate" deactivate="deactivate" modified="modified">
+        <implementation class="com.ig.bootcamp.core.impl.NamingServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.ig.bootcamp.core.NamingService"/>
+        </service>
+        <property name="author.value" value="author"/>
+        <property name="author.age" type="Integer" value="15"/>
+        <property name="author.gender" value="Female"/>
+        <property name="checkBox.property" type="Boolean" value="false"/>
+        <property name="multifield">
+            English
+            Hindi
+        </property>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.ig.bootcamp.core.impl.NamingServiceImpl"/>
+    </scr:component>
+</components>

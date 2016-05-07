@@ -1,0 +1,46 @@
+
+.myProfileWrap{
+	float:left;
+	width:100%;
+	margin:2% 0;
+}
+.myProfileWrap span{
+	text-transform:none;
+}
+.myProfileWrap .col{
+	float:left;
+	width:48%;
+	margin-right:2%;
+} 
+.myProfileWrap .col .fieldWrap{
+	float:left;
+	width:100%;
+	height:85px;
+	background:#f9f9f9;
+	color:#505050;
+	border:#dddddd solid 1px;
+	padding:10px;
+	margin-bottom:10px;
+}
+.myProfileWrap .col .fieldWrap .label{
+	float:left;
+	width:100%;
+}
+.myProfileWrap .col .fieldWrap .details{
+	float:left;
+	width:100%;
+	color:#f50200;
+}
+	
+@media only screen and (max-width: 767px) {
+.myProfileWrap .col{
+	width:100%;
+	margin:0px;
+}
+.myProfileWrap{
+	padding:0 2%;
+}
+.myProfileWrap .col .fieldWrap{
+	height:auto;
+}
+}

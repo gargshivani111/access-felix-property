@@ -1,0 +1,90 @@
+
+.internalSpotlightContent {
+	left: 50%;
+	width: 500px;
+	position: absolute;
+	top: 20%;
+	font-size: 50px;
+	line-height: 45px;
+	color: #fff;
+	font-weight: normal;
+}
+.internalSpotlightContent span {
+	font-family: 'SegoeCondensed-Bold';
+	font-size: 60px;
+}
+.internalSpotlightContent p {
+	font-size: 18px;
+	line-height: 18px;
+}
+.internalSpotlightContent .buttonWrapper {
+	float: left;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+.categoryWrapper {
+	float: left;
+	width: 100%;
+}
+.categoryWrapper ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.categoryWrapper ul li {
+	float: left;
+	width: 100%;
+	background: url(../img/catogery-list-bg.png) center top no-repeat;
+	background-size: cover;
+}
+.categoryWrapper ul li .buttonGlbl a {
+	border: #b2b2b2 solid 1px;
+	background: none;
+	color: #e02626;
+}
+.categoryWrapper ul li .buttonGlbl a:hover:after {
+	background: rgba(0, 0, 0, 0.1);
+	color: #fff;
+}
+.categoryWrapper ul li .col {
+	float: left;
+	width: 50%;
+}
+.categoryWrapper ul li .col img {
+	width: 100%;
+}
+.categoryWrapper ul li .col h2 {
+	margin: 0px;
+	padding: 0px;
+	color: #e02626;
+	font-weight: normal;
+}
+.categoryWrapper ul li .col .txtWrap {
+	padding: 5% 10% 5% 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.internalSpotlightContent {
+	display: none;
+}
+.categoryWrapper ul li {
+	padding: 0 2%;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.internalSpotlightContent {
+	display: none;
+}
+.categoryWrapper ul li .col {
+	width: 100%;
+	padding: 0 3%;
+}
+}
+@media only screen and (max-width: 479px) {
+.internalSpotlightContent {
+	display: none;
+}
+.categoryWrapper ul li .col {
+	width: 100%;
+	padding: 0 3%;
+}
+}

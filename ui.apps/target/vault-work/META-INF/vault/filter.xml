@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+	<filter root="/apps/cq-bootcamp">
+		<exclude pattern="/apps/cq-bootcamp/install" />
+	</filter>
+	<filter root="/apps/sling" />
+    <filter root="/etc/designs/cq-bootcamp"/>
+    <filter root="/etc/clientlibs/cqBootCampLib"/>
+    <filter root="/etc/clientlibs/slickProject"/>
+</workspaceFilter>

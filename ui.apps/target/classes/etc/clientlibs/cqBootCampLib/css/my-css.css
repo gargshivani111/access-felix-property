@@ -1,0 +1,98 @@
+
+.customImage {
+	width: 483px ; 
+    height:268px;
+}
+
+.master4 {
+    width: 100% ; 
+    height:268px
+}
+
+.clearFix{
+    clear:both;
+}
+.carouselCardrowConainer {
+
+    word-wrap:break-word;
+
+}
+
+.height {
+    height:267px;
+}
+
+.auto{
+    height:auto;
+}
+
+.carouselCardrowSlide1 {
+    color:#e02626
+}
+.carouselCardrowSlide2 {
+font-family:SegoeUI
+}
+
+.carouselHeroSlide {
+    height:100%;
+    background-size:100% 100%
+}
+
+.carouselHpCarouselBgContainer {
+    word-wrap:break-word;
+}
+
+.newsFeed1{
+    overflow-y:auto;
+    overflow-x:auto;
+    height:267px;
+    width:100%
+}
+
+.newsFeed2{
+    width:100%;
+}
+
+.settings {
+
+    height:267px;;
+    background: #ececec
+}
+
+.half {
+    width:50%;
+}
+
+.cq-colctrl-lt0-c0
+{
+    background-color: white;
+    width:50%;
+    float:left;
+    margin-left:5%px;
+}
+.cq-colctrl-lt0-c1
+{
+    background-color: white;
+    float:left;
+    width:50%;
+    margin-right:5%px;
+}
+
+.parsys_column
+   .cq-colctrl-lt1-c0
+{
+    background-color: white;
+    width:50%;
+    float:left;
+}
+.parsys_column
+.cq-colctrl-lt1-c1
+{
+    background-color:#D3D3D3;
+    width:50%;
+    float:left;
+}
+
+.pad{
+	padding:5px;
+}

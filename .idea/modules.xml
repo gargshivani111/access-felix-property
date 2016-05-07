@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CQ_BootCamp.iml" filepath="$PROJECT_DIR$/CQ_BootCamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/CQ_BootCamp.core.iml" filepath="$PROJECT_DIR$/core/CQ_BootCamp.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.launcher/CQ_BootCamp.it.launcher.iml" filepath="$PROJECT_DIR$/it.launcher/CQ_BootCamp.it.launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.tests/CQ_BootCamp.it.tests.iml" filepath="$PROJECT_DIR$/it.tests/CQ_BootCamp.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/CQ_BootCamp.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/CQ_BootCamp.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/CQ_BootCamp.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/CQ_BootCamp.ui.content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/groovy.all/groovy-all.iml" filepath="$PROJECT_DIR$/groovy.all/groovy-all.iml" />
+    </modules>
+  </component>
+</project>

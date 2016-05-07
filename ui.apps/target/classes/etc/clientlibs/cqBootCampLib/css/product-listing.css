@@ -1,0 +1,390 @@
+
+.rangeWrapper {
+	float: left;
+	width: 100%;
+	margin-bottom:30px;
+}
+.rangeWrapper ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.rangeWrapper ul li {
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+	border: #e8e8e8 solid 1px;
+	height: 90px;
+}
+.rangeWrapper ul li .ui-state-default,.rangeWrapper ul li  .ui-widget-content .ui-state-default, .rangeWrapper ul li .ui-widget-header .ui-state-default{ border:0; background:#ee3b3b;}
+.rangeWrapper ul li.autoWidth {
+	width: auto;
+}
+.rangeWrapper ul li .heading {
+	background: #9e9e9e;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 5px 10px;
+}
+.rangeWrapper ul li .filterWrap {
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+.rangeWrapper ul li .filterWrap input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+}
+.rangeWrapper ul li .filterWrap input[type="checkbox"].ios-switch + div {
+	vertical-align: middle;
+	width: 40px;
+	height: 20px;
+	border: 1px solid rgba(0,0,0,.4);
+	border-radius: 999px;
+	background-color: rgba(0, 0, 0, 0.1);
+	-webkit-transition-duration: .4s;
+	-webkit-transition-property: background-color, box-shadow;
+	box-shadow: inset 0 0 0 0px rgba(0,0,0,0.4);
+	margin: 0;
+}
+.rangeWrapper ul li .filterWrap input[type="checkbox"].ios-switch:checked + div {
+	width: 40px;
+	background-position: 0 0;
+	background-color: #3b89ec;
+	border: 1px solid #0e62cd;
+	box-shadow: inset 0 0 0 10px rgba(59,137,259,1);
+}
+.rangeWrapper ul li .filterWrap input[type="checkbox"].tinyswitch.ios-switch + div {
+	width: 34px;
+	height: 18px;
+}
+.rangeWrapper ul li .filterWrap input[type="checkbox"].green.ios-switch:checked + div {
+	background-color: #00e359;
+	border: 1px solid rgba(238, 54, 55,1);
+	box-shadow: inset 0 0 0 10px rgba(238, 54, 55,1);
+}
+.rangeWrapper ul li .filterWrap input[type="checkbox"].ios-switch + div > div {
+	float: left;
+	width: 18px;
+	height: 18px;
+	border-radius: inherit;
+	background: #ffffff;
+	-webkit-transition-timing-function: cubic-bezier(.54, 1.85, .5, 1);
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-property: transform, background-color, box-shadow;
+	-moz-transition-timing-function: cubic-bezier(.54, 1.85, .5, 1);
+	-moz-transition-duration: 0.4s;
+	-moz-transition-property: transform, background-color;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+	margin-top: 1px;
+	margin-left: 1px;
+}
+.rangeWrapper ul li .filterWrap input[type="checkbox"].ios-switch:checked + div > div {
+	-webkit-transform: translate3d(20px, 0, 0);
+	-moz-transform: translate3d(20px, 0, 0);
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(8, 80, 172,1);
+}
+.rangeWrapper ul li .filterWrap input[type="checkbox"].tinyswitch.ios-switch + div > div {
+	width: 16px;
+	height: 16px;
+	margin-top: 0px;
+}
+.rangeWrapper ul li .filterWrap input[type="checkbox"].tinyswitch.ios-switch:checked + div > div {
+	-webkit-transform: translate3d(16px, 0, 0);
+	-moz-transform: translate3d(16px, 0, 0);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(8, 80, 172,1);
+}
+.rangeWrapper ul li .filterWrap label {
+	float: left;
+	width: auto;
+}
+.rangeWrapper ul li .filterWrap .label {
+	float: left;
+	width: auto;
+	padding: 0 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.rangeWrapper ul li .slider {
+	margin: 5%;
+}
+.rangeWrapper ul li .sliderLabel {
+	float: left;
+	width: 100%;
+	margin: 10px 0 0 0;
+}
+.rangeWrapper ul li .sliderLabel .left {
+	float: left;
+	width: auto;
+}
+.rangeWrapper ul li .sliderLabel .right {
+	float: right;
+	width: auto;
+}
+.applicationProducts {
+	float: left;
+	width: 100%;
+}
+.applicationProducts ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.applicationProducts ul li {
+	float: left;
+	width: 33.3%;
+	margin: 0 0 35px 0;
+}
+.applicationProducts ul li .productName {
+	float: left;
+	width: 100%;
+	font-family: 'SegoeUI';
+	color: #4c4c4c;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.applicationProducts ul li .productDiv {
+	float: left;
+	width: 225px;
+	height: 225px;
+	margin-top: 10px;
+	text-align: center;
+	background: url(../img/productBg.jpg) left top repeat-x;
+}
+.applicationProducts ul li .mrpDiv {
+	float: left;
+	width: 100%;
+	font-size: 11px;
+	color: #ee3b3b;
+	margin: 5px 0 0 0;
+	font-weight: bold;
+}
+.applicationProducts ul li .viewCategories {
+	float: left;
+	width: 94%;
+	padding: 8px;
+	border-bottom: 2px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+}
+.applicationProducts ul li .viewCategories a {
+	text-decoration: none;
+	color: #858585;
+}
+.applicationProducts ul li a .viewCategories {
+	text-decoration: none;
+	color: #858585;
+}
+.applicationProducts ul li .addCartDiv {
+	float: left;
+	width: 94%;
+	padding: 8px 0;
+	border-bottom: 2px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+}
+.applicationProducts ul li .addCartDiv input[type="checkbox"] {
+	float: left;
+	width: auto;
+	margin: 1px 5px 0 5px;
+}
+.applicationProducts ul li .addCartDiv label {
+	float: left;
+	width: auto;
+	color: #4c4c4c;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 18px 0 0;
+}
+.applicationProducts ul li .productDiv .slick-dots {
+	bottom: 20px;
+}
+.applicationProducts ul li .productDiv .slick-dots li {
+	float: right;
+	width: auto;
+	margin: 0 4px;
+}
+.slick-dots li button{
+	background:#ccc;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.applicationWrapper {
+	margin-top: 0px;
+}
+.applicationWrapper .categorieWrapper {
+	margin-top: 20px;
+	width: 100%;
+}
+.applicationProducts ul li {
+	width: 48.5%;
+	margin-top: 20px;
+	margin-right: 2%;
+}
+.applicationProducts ul li:nth-child(even) {
+	margin-right: 0px;
+}
+.applicationProducts ul li .productDiv {
+	width: 100%;
+	height: auto;
+}
+.applicationProducts ul li .productDiv img {
+	width: auto;
+	height: auto;
+}
+}
+@media only screen and (max-width: 479px) {
+
+	.applicationWrapper {
+	margin-top: 0px;
+}
+.applicationWrapper .categorieWrapper {
+	margin-top: 20px;
+	width: 100%;
+}
+.applicationProducts ul li {
+	width: 48.5%;
+	margin-top: 20px;
+	margin-right: 2%;
+}
+.applicationProducts ul li:nth-child(even) {
+	margin-right: 0px;
+}
+.applicationProducts ul li .productDiv {
+	width: 100%;
+	height: 150px;
+}
+.applicationProducts ul li .productDiv img {
+	width: 100%;
+	height: 100%;
+}
+.productSliderWrapper .zoomWrapper {
+	width: 100%;
+	margin-top: 0px;
+}
+.subNavImageWrapper .subNavImage {
+	padding: 0 3%;
+}
+.subNavImageWrapper .subNavImage ul li a span {
+	display: block;
+}
+.subNavImageWrapper .subNavImage .navBottomArrow {
+	left: 6%;
+}
+.productManualWrapper .productHeading {
+	width: 100%;
+	margin-top: 14px;
+	padding: 0 3%;
+}
+.productManualWrapper .rateProductWrapper {
+	margin: 5px 0 0 3%;
+}
+.productManualWrapper .productManual {
+	margin-top: 15px;
+	width: 100%;
+}
+.productManualWrapper .productManual ul li {
+	padding: 0 1.4%;
+}
+.productManualWrapper .productManual ul li a {
+	padding-bottom: 10px;
+}
+.productWrapperDiv .productSliderWrapper {
+	width: 100%;
+}
+.productSliderWrapper .productMainDivLeft {
+	margin: 10px 0 0 3%;
+	width: 97%;
+}
+.productSliderWrapper .productMainDivLeft ul li {
+	width: auto;
+	margin-right: 3%;
+}
+.productSliderWrapper .productMainDiv {
+	width: 100%;
+	padding-top: 20px;
+}
+.productSliderWrapper .slick-dots {
+	left: 0px;
+	top: 0px;
+}
+.productWrapperDiv .productWrapper {
+	width: 100%;
+	padding: 0 3%;
+}
+.featuresWrapper .featuresDiv {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.featuresWrapper .featuresDiv .featuresLeft {
+	width: 100%;
+}
+.featuresLeft .featuresAccWrapper .featureClicker a {
+	padding: 10px 7%;
+}
+.featuresLeft .divHeading {
+	padding: 0 3%;
+}
+.featuresLeft .videoWrapper .videoSlider {
+	margin: 14px 0 0 10%;
+	width: 80%;
+}
+.featuresLeft .testominalWrapper {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li {
+	margin-top: 10px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv {
+	width: 95%;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsImage, .featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsText, .testominalWrapper .testimonialsDiv ul li .testimonialsText .ratingWrapper .rating {
+	width: 100%;
+}
+.testimonialsDiv ul li .testimonialsText .ratingWrapper .testominalName {
+	margin: 5px 5% 0 0;
+}
+.featuresLeft .likeWrapper {
+	margin-top: 10px;
+}
+.featuresLeft .likeWrapper .applicationProducts li {
+	width: 48.5%;
+	margin-right: 2%;
+}
+.featuresLeft .likeWrapper .applicationProducts li:nth-child(even) {
+	margin-right: 0px;
+}
+.featuresDiv .featuresRight {
+	float: left;
+	width: 100%;
+}
+.locateDealerWrapper input {
+	width: 60%;
+}
+.locateDealerWrapper span {
+	margin-right: 30%;
+}
+.supportAndServicesDiv {
+	margin-bottom: 10px;
+}
+.productManualWrapper .productManual ul li ul {
+	right: auto;
+	left:0;
+}
+.productManualWrapper .productManual ul li ul li{
+	text-align:center;
+}
+.rangeWrapper ul li.autoWidth {
+	width: 100%;
+}
+.rangeWrapper ul li {
+	width:100%;
+	margin-bottom:10px;
+}
+.rangeWrapper ul li .slider{
+	margin:10px 0;
+}
+}

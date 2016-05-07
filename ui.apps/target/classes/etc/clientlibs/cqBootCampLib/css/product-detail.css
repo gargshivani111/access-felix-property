@@ -1,0 +1,959 @@
+
+.featuresWrapper {
+	float: left;
+	width: 100%;
+}
+.featuresWrapper .featuresDiv {
+	float: left;
+	width: 100%;
+	margin: 40px 0 0 0;
+	padding: 40px 0 0 0;
+	border-top: 1px solid #e5e5e5;
+}
+.featuresWrapper .featuresDiv .featuresLeft {
+	float: left;
+	width: 72.5%;
+}
+.featuresDiv .featuresLeft .featuresAccWrapper {
+	float: left;
+	width: 100%;
+}
+.featuresLeft .featuresAccWrapper .featureClicker {
+	float: left;
+	width: 100%;
+	margin: 0 0 2px 0;
+}
+.featuresLeft .featuresAccWrapper .featureClicker a {
+	display: block;
+	color: #313131;
+	font-size: 14px;
+	padding: 10px 3%;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	background: #f7f7f7;
+	position: relative;
+}
+.featuresLeft .featuresAccWrapper .featureClicker a:before {
+	position: absolute;
+	left: 5px;
+	top: 9px;
+	content: "+";
+	color: #ee3b3b;
+	font-size: 14px;
+	font-weight: bold;
+}
+.featuresLeft .featuresAccWrapper .featureClicker a.active:before {
+	content: "-";
+	top: 7px;
+	left: 7px;
+}
+.featuresLeft .featuresAccWrapper .featureContent {
+	float: left;
+	width: 100%;
+}
+.featuresLeft .featuresAccWrapper .featureContent ul {
+	padding: 13px 0 0 6%;
+	margin: 0px;
+}
+.featuresLeft .featuresAccWrapper .featureContent ul li {
+	padding: 0 0 5px 5px;
+}
+.featuresLeft .videoWrapper {
+	float: left;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+.featuresLeft .divHeading {
+	float: left;
+	width: 100%;
+	color: #f90100;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.featuresLeft .videoWrapper .videoSlider {
+	float: left;
+	width: 100%;
+	padding: 0 5%;
+	margin: 34px 0 0 0;
+	position: relative;
+}
+.featuresLeft .videoWrapper .videoSlider .videoSliderInner {
+	float: left;
+	width: 32.3%;
+	margin: 0 1% 0 0;
+}
+.featuresLeft .videoWrapper .videoSlider .videoSliderInner iframe {
+	width: 100%;
+	height: 102px;
+}
+.featuresLeft .videoWrapper .videoSlider .videoSliderInner .videoName {
+	float: left;
+	width: 100%;
+	color: #126fc9;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 7px;
+}
+.featuresLeft .videoWrapper .videoSlider .videoSliderInner .viewWrapper {
+	float: left;
+	width: 100%;
+	color: #525962;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 2px 0 0 0;
+}
+.featuresLeft .videoWrapper .videoSlider .videoSliderInner .viewWrapper span {
+	font-weight: bold;
+	margin: 0 10px 0 0;
+}
+.featuresLeft .videoWrapper .videoSlider .slick-prev {
+	top: 43%;
+	width: 11px;
+	height: 16px;
+	background: url(../img/next-prev-arrow.png) left top no-repeat;
+}
+.featuresLeft .videoWrapper .videoSlider .slick-next {
+	top: 43%;
+	width: 12px;
+	height: 17px;
+	right: -12px;
+	background: url(../img/next-prev-arrow.png) right top no-repeat;
+}
+.featuresLeft .testominalWrapper {
+	float: left;
+	width: 100%;
+	padding: 35px 0;
+	margin: 45px 0 0 0;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv {
+	float: left;
+	width: 100%;
+	height: 215px;
+	padding: 0 0 0 3%;
+	margin: 3% 0 0 0;
+	overflow: scroll;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li {
+	float: left;
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsImage {
+	float: left;
+	width: 13%;
+	margin: 0 4% 0 0;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsText {
+	float: left;
+	width: 82%;
+	padding: 0 1% 0 0;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsText p {
+	margin: 5px 0 0 0;
+	color: #7f7f7f;
+	font-size: 12px;
+	line-height: 14px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsText .ratingWrapper {
+	float: left;
+	width: 100%;
+	margin: 8px 0 0 0;
+}
+.testominalWrapper .testimonialsDiv ul li .testimonialsText .ratingWrapper .rating {
+	float: left;
+	width: auto;
+}
+.testominalWrapper .testimonialsDiv ul li .testimonialsText .ratingWrapper .rating span {
+	margin: 0 2px 0 0;
+	cursor: pointer;
+}
+.testominalWrapper .testimonialsDiv ul li .testimonialsText .ratingWrapper .rating span .fa-star {
+	color: #d7d7d7;
+}
+.testominalWrapper .testimonialsDiv ul li .testimonialsText .ratingWrapper .rating span .fa-star:hover {
+	color: #000;
+}
+.testimonialsDiv ul li .testimonialsText .ratingWrapper .testominalName {
+	float: left;
+	width: auto;
+	margin: 0 0 0 20px;
+}
+.testimonialsDiv ul li .testimonialsText .ratingWrapper .testominalName span {
+	font-weight: bold;
+}
+.featuresLeft .likeWrapper {
+	float: left;
+	width: 100%;
+	margin: 30px 0 0 0;
+	padding: 0 0 30px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.featuresLeft .likeWrapper .applicationProducts li {
+	width: 23.8%;
+	margin: 15px 1.5% 0 0;
+}
+.featuresLeft .likeWrapper .applicationProducts li .productDiv {
+	width: 100%;
+	overflow: hidden;
+	height: 172px;
+}
+.featuresLeft .likeWrapper .applicationProducts li .addCartDiv {
+	width: 100%;
+}
+.featuresLeft .likeWrapper .applicationProducts li .addCartDiv label {
+	margin: 0 10px 0 0;
+	font-size: 9px;
+}
+.featuresLeft .likeWrapper .applicationProducts li .addCartDiv label:last-child {
+	margin-right: 0px;
+}
+.featuresLeft .likeWrapper .applicationProducts li .addCartDiv input[type="checkbox"] {
+	margin: 0 3px;
+}
+.featuresDiv .featuresRight {
+	float: right;
+	width: 24%;
+}
+.locateDealerWrapper {
+	float: left;
+	width: 100%;
+	padding: 12px 0 12px 8%;
+	background: #f3f3f3;
+}
+.locateDealerWrapper p {
+	margin: 0 0 7px 0;
+	color: #f90100;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+}
+.locateDealerWrapper input {
+	width: 134px;
+	padding: 8px;
+	margin: 7px 0 0 0;
+	color: #939393;
+	border: 1px solid #c3c3c3;
+	background: none;
+}
+.locateDealerWrapper span {
+	float: right;
+	width: auto;
+	margin: 34px 24% 0 0;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.locateDealerWrapper .buttonGlbl {
+	margin: 11px 0 3px 0;
+}
+.locateDealerWrapper .buttonGlbl a {
+	color: #fff;
+	font-weight: bold;
+	background: #f83131;
+}
+.recommenderDiv {
+	background: url(../img/product-recommenderBg.jpg) left top no-repeat;
+}
+.subNavImageWrapper {
+	float: left;
+	width: 100%;
+	padding: 6px 0;
+	border-bottom: 1px solid #e6e6e6;
+}
+.subNavImageWrapper .subNavImage {
+	float: left;
+	width: 100%;
+}
+.subNavImageWrapper .subNavImage ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.subNavImageWrapper .subNavImage ul li {
+	float: left;
+	width: 55px;
+	height: 75px;
+	margin: 0 10px 0 0;
+	position: relative;
+}
+.subNavImageWrapper .subNavImage ul li .navBottomArrow {
+	display: none;
+	position: absolute;
+	bottom: -22px;
+	left: 20%;
+	color: #e6e6e6;
+	z-index: 1;
+	font-size: 20px;
+}
+.subNavImageWrapper .subNavImage ul li a {
+	display: block;
+	text-decoration: none;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.subNavImageWrapper .subNavImage ul li a span {
+	display: none;
+	color: #f90100;
+	font-size: 11px;
+	margin: 5px 0 0 0;
+	font-weight: normal;
+}
+.subNavImageWrapper .subNavImage ul li a:hover span {
+	display: inline-block;
+}
+.subNavImageWrapper .subNavImage ul li a:hover .navBottomArrow {
+	display: block;
+}
+.productManualWrapper {
+	float: left;
+	width: 100%;
+}
+.productManualWrapper .productManual {
+	float: right;
+	width: auto;
+	margin: 35px 0 0 0;
+}
+.productManualWrapper .productManual ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.productManualWrapper .productManual ul li {
+	float: left;
+	width: auto;
+	padding: 0 14px;
+	border-right: 1px solid #e5e5e5;
+	position: relative;
+}
+.productManualWrapper .productManual ul li a {
+	display: block;
+	color: #333333;
+	text-decoration: none;
+	line-height: 13px;
+	padding: 0 0 20px 0;
+}
+.productManualWrapper .productManual ul li a span {
+	float: right;
+	width: auto;
+	display: block;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 3px 0 0 10px;
+}
+.productManualWrapper .productManual ul li:last-child a span {
+	margin-top: 8px;
+}
+.productManualWrapper .productManual ul li a .fa-file-text, .productManualWrapper .productManual ul li a .fa-arrow-down, .productManualWrapper .productManual ul li a .fa-shopping-cart, .productManualWrapper .productManual ul li a .fa-share-alt {
+	color: #ff070e;
+	font-size: 19px;
+	font-weight: bold;
+	margin: 6px 0 0 0;
+}
+.productManualWrapper .productManual ul li ul {
+	position: absolute;
+	width: 120px;
+	background: #cf000c;
+	right: 0;
+	z-index: 2;
+	display: none;
+}
+.productManualWrapper .productManual ul li ul li {
+	float: left;
+	width: 40px;
+	height: 40px;
+	font-size: 15px;
+	color: #fff;
+	line-height: 40px;
+}
+.productManualWrapper .productManual ul li ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	height: 40px;
+}
+.productManualWrapper .productManual ul li:hover ul {
+	display: block;
+}
+.productWrapperBg {
+	background: url(../img/product-detailBg.jpg) left top repeat-x;
+}
+.productWrapperDiv {
+	float: left;
+	width: 100%;
+}
+.productWrapperDiv .productWrapper {
+	float: right;
+	width: 360px;
+	margin: 35px 0 0 0;
+}
+.productWrapperDiv .productWrapper ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.productWrapperDiv .productWrapper ul li {
+	float: left;
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+.productWrapperDiv .productWrapper ul li h4 {
+	margin: 0px 0 8px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4a4a4a;
+}
+.productWrapperDiv .productWrapper ul li p {
+	margin: 0px;
+	color: #656565;
+}
+.productWrapper .productMrp {
+	float: left;
+	width: 100%;
+	color: #ee3b3b;
+	margin: 10px 0 5px 0;
+	font-weight: bold;
+}
+.productWrapper .buttonGlbl a {
+	background: #494949;
+	font-weight: bold;
+}
+.productManualWrapper .productHeading {
+	float: left;
+	width: auto;
+	margin: 24px 0 0 0;
+}
+.productManualWrapper .rateProductWrapper {
+	float: left;
+	width: auto;
+	margin: 24px 0 0 30px;
+}
+.productManualWrapper .rateProductWrapper span {
+	margin: 0 2px 0 0;
+	cursor: pointer;
+}
+.productManualWrapper .rateProductWrapper span .fa-star {
+	color: #d7d7d7;
+}
+.productManualWrapper .rateProductWrapper span .fa-star:hover {
+	color: #f90100;
+}
+.productManualWrapper .rateProductWrapper a {
+	display: block;
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+}
+.productWrapperDiv .productSliderWrapper {
+	float: left;
+	width: 500px;
+}
+.productSliderWrapper .productMainDivLeft {
+	float: left;
+	width: 20%;
+	margin: 100px 0 0 0;
+}
+.productSliderWrapper .productMainDivLeft ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.productSliderWrapper .productMainDivLeft ul li {
+	float: left;
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+.productSliderWrapper .productMainDivLeft ul li a img {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%);
+}
+.productSliderWrapper .productMainDivLeft ul li.active a img {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(0%);
+}
+.zoomRelative {
+	position: relative;
+}
+.productSliderWrapper .zoomWrapper {
+	float: right;
+	width: 400px;
+	margin: 40px 0 0 0;
+}
+.zoomContainer {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 470px;
+	z-index: 20;
+	border-bottom: 1px solid #e5e5e5;
+	background: url(../img/product-detailBg.jpg) #FFF left top repeat-x;
+}
+.productSliderWrapper .productMainDiv {
+	float: right;
+	width: 100%;
+}
+.productSliderWrapper .productMain {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.productSliderWrapper .productMain img {
+	width: 100%;
+	height: auto;
+}
+.productSliderWrapper .productMain img.zoomImg{
+	background: url(../img/product-detailBg.jpg) #FFF left top repeat-x;
+	}
+.productSliderWrapper .slick-dots {
+	top: -46px;
+	bottom: auto;
+	text-align: left;
+	width: 96%;
+	padding: 0 0 0 4%;
+	left: -108px;
+}
+.applicationProducts {
+	float: left;
+	width: 100%;
+}
+.applicationProducts ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.applicationProducts ul li {
+	float: left;
+	width: 33.3%;
+	margin: 35px 0 0 0;
+}
+.applicationProducts ul li .productName {
+	float: left;
+	width: 100%;
+	font-family: 'SegoeUI';
+	color: #4c4c4c;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.applicationProducts ul li .productDiv {
+	float: left;
+	width: 225px;
+	height: 225px;
+	margin-top: 10px;
+	text-align: center;
+	background: url(../img/productBg.jpg) left top repeat-x;
+}
+.applicationProducts ul li .mrpDiv {
+	float: left;
+	width: 100%;
+	font-size: 11px;
+	color: #ee3b3b;
+	margin: 5px 0 0 0;
+	font-weight: bold;
+}
+.applicationProducts ul li .viewCategories {
+	float: left;
+	width: 94%;
+	padding: 8px;
+	border-bottom: 2px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+}
+.applicationProducts ul li .viewCategories a {
+	text-decoration: none;
+	color: #858585;
+}
+.applicationProducts ul li a .viewCategories {
+	text-decoration: none;
+	color: #858585;
+}
+.applicationProducts ul li .addCartDiv {
+	float: left;
+	width: 94%;
+	padding: 8px 0;
+	border-bottom: 2px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+}
+.applicationProducts ul li .addCartDiv input[type="checkbox"] {
+	float: left;
+	width: auto;
+	margin: 1px 5px 0 5px;
+}
+.applicationProducts ul li .addCartDiv label {
+	float: left;
+	width: auto;
+	color: #4c4c4c;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 18px 0 0;
+}
+.applicationProducts ul li .productDiv .slick-dots {
+	bottom: 20px;
+}
+.applicationProducts ul li .productDiv .slick-dots li {
+	float: right;
+	width: auto;
+	margin: 0 4px;
+}
+.zoomClick{
+	float:left;
+	width:100%;
+	text-align:right;
+	}
+.lastZoomWrapper{
+	display:none;
+	position:absolute;
+	right:0px;
+	top:32px;
+	width:460px;
+	height:322px;
+	text-align:center;
+	}	
+.writeTestimonialWrapper{
+	float:left;
+	width:100%;
+	margin:20px 0 0 0;
+}
+.writeTestimonialWrapper .txtArea{
+	float:left;
+	width:100%;
+	height:80px;
+	background:none;
+	font-size:14px;
+	resize:none;
+	font-family: 'SegoeUI';
+	padding:5px 10px;
+	color:#7f7f7f;
+	border:#c3c3c3 solid 1px;
+	margin:0 0 10px 0;
+}
+.writeTestimonialWrapper  .submit{
+	float:left;
+	width:auto;
+	background:#ee3b3b;
+	color:#fff;
+	height:35px;
+	padding:0 20px;
+	font-size:13px;
+	font-family: 'SegoeUI';
+	padding:5px 10px;
+	resize:none;
+	border:0;
+	text-transform:uppercase;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.featuresWrapper .featuresDiv {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.featuresWrapper .featuresDiv .featuresLeft {
+	width: 100%;
+}
+.featuresLeft .featuresAccWrapper .featureClicker a {
+	padding: 10px 7%;
+}
+.featuresLeft .divHeading {
+	padding: 0 3%;
+}
+.featuresLeft .videoWrapper .videoSlider {
+	margin: 14px 0 0 10%;
+	width: 80%;
+}
+.featuresLeft .testominalWrapper {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li {
+	margin-top: 10px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv {
+	width: 95%;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsImage, .featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsText, .testominalWrapper .testimonialsDiv ul li .testimonialsText .ratingWrapper .rating {
+	width: 100%;
+}
+.testimonialsDiv ul li .testimonialsText .ratingWrapper .testominalName {
+	margin: 5px 5% 0 0;
+}
+.featuresLeft .likeWrapper {
+	margin-top: 10px;
+}
+.featuresLeft .likeWrapper .applicationProducts li {
+	width: 48.5%;
+	margin-right: 2%;
+}
+.featuresLeft .likeWrapper .applicationProducts li:nth-child(even) {
+	margin-right: 0px;
+}
+.featuresDiv .featuresRight {
+	float: left;
+	width: 100%;
+}
+.locateDealerWrapper input {
+	width: 60%;
+}
+.locateDealerWrapper span {
+	margin-right: 30%;
+}
+.supportAndServicesDiv {
+	margin-bottom: 10px;
+}
+	.applicationWrapper {
+	margin-top: 0px;
+}
+.applicationWrapper .categorieWrapper {
+	margin-top: 20px;
+	width: 100%;
+}
+.applicationProducts ul li {
+	width: 48.5%;
+	margin-top: 20px;
+	margin-right: 2%;
+}
+.applicationProducts ul li:nth-child(even) {
+	margin-right: 0px;
+}
+.applicationProducts ul li .productDiv {
+	width: 100%;
+	height: auto;
+}
+.applicationProducts ul li .productDiv img {
+	width: auto;
+	height: auto;
+}
+}
+@media only screen and (max-width: 479px) {
+.featuresWrapper .featuresDiv {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.featuresWrapper .featuresDiv .featuresLeft {
+	width: 100%;
+}
+.featuresLeft .featuresAccWrapper .featureClicker a {
+	padding: 10px 7%;
+}
+.featuresLeft .divHeading {
+	padding: 0 3%;
+}
+.featuresLeft .videoWrapper .videoSlider {
+	margin: 14px 0 0 10%;
+	width: 80%;
+}
+.featuresLeft .testominalWrapper {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li {
+	margin-top: 10px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv {
+	width: 95%;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsImage, .featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsText, .testominalWrapper .testimonialsDiv ul li .testimonialsText .ratingWrapper .rating {
+	width: 100%;
+}
+.testimonialsDiv ul li .testimonialsText .ratingWrapper .testominalName {
+	margin: 5px 5% 0 0;
+}
+.featuresLeft .likeWrapper {
+	margin-top: 10px;
+}
+.featuresLeft .likeWrapper .applicationProducts li {
+	width: 48.5%;
+	margin-right: 2%;
+}
+.featuresLeft .likeWrapper .applicationProducts li:nth-child(even) {
+	margin-right: 0px;
+}
+.featuresDiv .featuresRight {
+	float: left;
+	width: 100%;
+}
+.locateDealerWrapper input {
+	width: 60%;
+}
+.locateDealerWrapper span {
+	margin-right: 30%;
+}
+.supportAndServicesDiv {
+	margin-bottom: 10px;
+}
+.productSliderWrapper .productMainDivLeft {
+	margin: 10px 0 0 3%;
+	width: 97%;
+}
+.productSliderWrapper .productMainDivLeft ul li {
+	width: auto;
+	margin-right: 3%;
+}
+.productSliderWrapper .productMainDiv {
+	width: 100%;
+	padding-top: 20px;
+}
+.productSliderWrapper .slick-dots {
+	left: 0px;
+	top: 0px;
+}
+.productWrapperDiv .productWrapper {
+	width: 100%;
+	padding: 0 3%;
+}
+	.applicationWrapper {
+	margin-top: 0px;
+}
+.applicationWrapper .categorieWrapper {
+	margin-top: 20px;
+	width: 100%;
+}
+.applicationProducts ul li {
+	width: 48.5%;
+	margin-top: 20px;
+	margin-right: 2%;
+}
+.applicationProducts ul li:nth-child(even) {
+	margin-right: 0px;
+}
+.applicationProducts ul li .productDiv {
+	width: 100%;
+	height: 150px;
+}
+.applicationProducts ul li .productDiv img {
+	width: 100%;
+	height: 100%;
+}
+.productSliderWrapper .zoomWrapper {
+	width: 100%;
+	margin-top: 0px;
+}
+.subNavImageWrapper .subNavImage {
+	padding: 0 3%;
+}
+.subNavImageWrapper .subNavImage ul li a span {
+	display: block;
+}
+.subNavImageWrapper .subNavImage .navBottomArrow {
+	left: 6%;
+}
+.productManualWrapper .productHeading {
+	width: 100%;
+	margin-top: 14px;
+	padding: 0 3%;
+}
+.productManualWrapper .rateProductWrapper {
+	margin: 5px 0 0 3%;
+}
+.productManualWrapper .productManual {
+	margin-top: 15px;
+	width: 100%;
+}
+.productManualWrapper .productManual ul li {
+	padding: 0 1.4%;
+}
+.productManualWrapper .productManual ul li a {
+	padding-bottom: 10px;
+}
+.productWrapperDiv .productSliderWrapper {
+	width: 100%;
+}
+.productSliderWrapper .productMainDivLeft {
+	margin: 10px 0 0 3%;
+	width: 97%;
+}
+.productSliderWrapper .productMainDivLeft ul li {
+	width: auto;
+	margin-right: 3%;
+}
+.productSliderWrapper .productMainDiv {
+	width: 100%;
+	padding-top: 20px;
+}
+.productSliderWrapper .slick-dots {
+	left: 0px;
+	top: 0px;
+}
+.productWrapperDiv .productWrapper {
+	width: 100%;
+	padding: 0 3%;
+}
+.featuresWrapper .featuresDiv {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.featuresWrapper .featuresDiv .featuresLeft {
+	width: 100%;
+}
+.featuresLeft .featuresAccWrapper .featureClicker a {
+	padding: 10px 7%;
+}
+.featuresLeft .divHeading {
+	padding: 0 3%;
+}
+.featuresLeft .videoWrapper .videoSlider {
+	margin: 14px 0 0 10%;
+	width: 80%;
+}
+.featuresLeft .testominalWrapper {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li {
+	margin-top: 10px;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv {
+	width: 95%;
+}
+.featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsImage, .featuresLeft .testominalWrapper .testimonialsDiv ul li .testimonialsText, .testominalWrapper .testimonialsDiv ul li .testimonialsText .ratingWrapper .rating {
+	width: 100%;
+}
+.testimonialsDiv ul li .testimonialsText .ratingWrapper .testominalName {
+	margin: 5px 5% 0 0;
+}
+.featuresLeft .likeWrapper {
+	margin-top: 10px;
+}
+.featuresLeft .likeWrapper .applicationProducts li {
+	width: 48.5%;
+	margin-right: 2%;
+}
+.featuresLeft .likeWrapper .applicationProducts li:nth-child(even) {
+	margin-right: 0px;
+}
+.featuresDiv .featuresRight {
+	float: left;
+	width: 100%;
+}
+.locateDealerWrapper input {
+	width: 60%;
+}
+.locateDealerWrapper span {
+	margin-right: 30%;
+}
+.supportAndServicesDiv {
+	margin-bottom: 10px;
+}
+.productManualWrapper .productManual ul li ul {
+	right: auto;
+	left:0;
+}
+.productManualWrapper .productManual ul li ul li{
+	text-align:center;
+}
+}

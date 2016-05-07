@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for CQ_BootCamp.it.launcher" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="CQ_BootCamp.it.launcher" />
+      </profile>
+      <profile default="false" name="Annotation profile for CQ_BootCamp.it.tests" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="CQ_BootCamp.it.tests" />
+      </profile>
+      <profile default="false" name="Annotation profile for CQ_BootCamp.ui.content" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="CQ_BootCamp.ui.content" />
+      </profile>
+      <profile default="false" name="Annotation profile for CQ_BootCamp.ui.apps" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="CQ_BootCamp.ui.apps" />
+      </profile>
+      <profile default="false" name="Annotation profile for CQ_BootCamp.core" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="CQ_BootCamp.core" />
+      </profile>
+      <profile default="false" name="Annotation profile for groovy-all" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="groovy-all" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CQ_BootCamp" target="1.6" />
+      <module name="CQ_BootCamp.core" target="1.6" />
+      <module name="CQ_BootCamp.it.launcher" target="1.6" />
+      <module name="CQ_BootCamp.it.tests" target="1.6" />
+      <module name="CQ_BootCamp.ui.apps" target="1.6" />
+      <module name="CQ_BootCamp.ui.content" target="1.6" />
+      <module name="groovy-all" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
